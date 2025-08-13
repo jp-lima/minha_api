@@ -17,7 +17,7 @@ app.get("/dados", (req, res) => {
     gorduras: 6.9,
     carboidratos: 66.3,
     grama: 100,
-    foto:imgaveia
+    foto: 'url'
   },
   {
     id:2,
@@ -27,7 +27,7 @@ app.get("/dados", (req, res) => {
     gorduras: 0.3,
     carboidratos: 28.2,
     grama:100,
-    foto:imgaveia
+    foto:'url'
   },
   {
     id:3,
@@ -37,7 +37,7 @@ app.get("/dados", (req, res) => {
     gorduras: 0.9,
     carboidratos:30.9,
     grama: 100,
-    foto:imgaveia
+    foto:'url'
   },
   {
     id:4,
@@ -47,7 +47,7 @@ app.get("/dados", (req, res) => {
     gorduras: 0.5,
     carboidratos: 13.6,
     grama: 100,
-    foto:imgaveia
+    foto:'url'
   },
   {
     id:5, 
@@ -57,7 +57,7 @@ app.get("/dados", (req, res) => {
     gorduras: 27.0,
     carboidratos: 38.0,
     grama:100,
-    foto:imgaveia
+    foto:'url'
 
   }]);
 });
